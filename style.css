@@ -511,7 +511,9 @@ input:-webkit-autofill:focus {
 
 .caption-slider .caption-desc {
     -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s
+    animation-delay: 0.6s;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .caption-slider .caption-button {
