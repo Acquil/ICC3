@@ -89,6 +89,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    box-shadow: 0 0 0px 1000px white inset !important;
 }
 
 /**
@@ -378,10 +379,12 @@ input:-webkit-autofill:focus {
 
 .anlge-bg {
     background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    height: 100vh;
 }
 
 .overlay {
     position: relative;
+    /* height: 100vh; */
 }
 
 .overlay:before {
@@ -397,7 +400,7 @@ input:-webkit-autofill:focus {
 .header-text h2 {
     margin-bottom: 20px;
     font-size: 40px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.8);
 }
 
 .header-text .button {
@@ -1041,9 +1044,15 @@ preloader
 }
 
 #psgLogo{
-    height: 100px;
-    width: 75px;
+    height: 90px;
+    width: 60px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
   	-moz-transition: all 0.5s ease-in-out ;
+}
+
+/* For covering the whole screen in mobiles 
+Remove if it causes any issues */
+#home-page{
+    height:100vh;
 }
