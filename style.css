@@ -315,12 +315,14 @@ input:-webkit-autofill:focus {
     text-transform: uppercase;
     letter-spacing: 2px;
     height: inherit;
-    margin-top: 2vh;
+    margin-top: 0.5vh;
     padding-left: 0;
 }
 
 .mainmenu-area .logo h2 {
     margin-bottom: 0;
+    /* border for better readability */
+    -webkit-text-stroke: 0.3px darkslategrey;
 }
 
 .mainmenu-area #primary-menu > ul > li > a {
@@ -1036,4 +1038,12 @@ preloader
 .equal-height-box
 {
     min-height: 500px !important;
+}
+
+#psgLogo{
+    height: 100px;
+    width: 75px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out ;
 }
