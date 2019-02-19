@@ -1040,7 +1040,8 @@ preloader
 
 .equal-height-box
 {
-    min-height: 500px !important;
+
+    min-height: 550px !important;
 }
 
 #psgLogo{
